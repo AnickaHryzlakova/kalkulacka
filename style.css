@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  background-image: url("flop.png");
+}
+
+.position{
+  position: absolute;
+  top:55%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.badussy img{
+  position: absolute;
+  top:75%;
+  left:80%;
+  transform: translate(-50%, -50%);
+  width:30%;
+  height:30%;
+}
+
+.jiafei img{
+  position: absolute;
+  top:25%;
+  left:20%;
+  transform: translate(-50%, -50%);
+  width:30%;
+  height:30%;
+}
+
+.nicky img{
+  position: absolute;
+  top:25%;
+  left:80%;
+  transform: translate(-50%, -50%);
+  width:20%;
+  height:30%;
+}
+
+.deborah img{
+  position: absolute;
+  top:75%;
+  left:40%;
+  transform: translate(-50%, -50%);
+  width:20%;
+  height:30%;
+}
+
+.elcc img{
+  position: absolute;
+  top:25%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:20%;
+  height:30%;
+}
+
+.vid{
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+iframe {
+   width: 100%;
+  height: 200px;
+  }

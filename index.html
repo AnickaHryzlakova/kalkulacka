@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  
+<body>
+
+  <div class="position">
+    <input type="text" id="display" placeholder="0">
+    <input type="text" id="input" placeholder="Zadejte příklad">
+  </div>
+
+<div class="badussy">
+ <img src="badussywar.jpg">
+</div>
+
+<div class="jiafei">
+  <img src="jiafei.jpg">
+</div>
+
+<div class="nicky">
+  <img src="nicky.jpg">
+</div>
+
+<div class="deborah">
+  <img src="deborah.jpg">
+</div>
+
+<div class="elcc">
+ <img src="elcc.jpg">
+</div>
+
+<div class="vid">
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/sPRDL4RNzYM?autoplay=1">
+</iframe>
+</div>
+  
+<script>
+
+document.getElementById("input").addEventListener("input", function() {
+ const inputText = this.value;
+  try {
+ const result = eval(inputText);
+  document.getElementById("display").value = result;
+   } catch (error) {
+document.getElementById("display").value = "Error";
+}
+});
+  
+ </script>
+</body>
+</html>
